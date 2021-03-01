@@ -13,7 +13,7 @@ namespace SCORM1.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202102232242029_initial"; }
+            get { return "202102242330488_initial"; }
         }
         
         string IMigrationMetadata.Source
