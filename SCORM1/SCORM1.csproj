@@ -310,9 +310,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202102232242029_initial.cs" />
-    <Compile Include="Migrations\202102232242029_initial.Designer.cs">
-      <DependentUpon>202102232242029_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202102242330488_initial.cs" />
+    <Compile Include="Migrations\202102242330488_initial.Designer.cs">
+      <DependentUpon>202102242330488_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BasicAuthenticationAttribute.cs" />
@@ -2339,8 +2339,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202102232242029_initial.resx">
-      <DependentUpon>202102232242029_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202102242330488_initial.resx">
+      <DependentUpon>202102242330488_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
