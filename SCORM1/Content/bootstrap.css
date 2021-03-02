@@ -94,7 +94,7 @@ small {
 
 .botonesGrades {
     font-size: 17px;
-    background: #B0002D;
+    background: #006695;
     color: #fff;
     margin: 20px;
     width: 100%;
@@ -1441,8 +1441,8 @@ a {
 }
 
     a:hover,
-    a:focus,a.active {
-        background: #860325;
+    a:focus, a.active {
+        background: #032b8699;
         color: white;
     }
 
@@ -3350,7 +3350,7 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-    background-color: #B0002D;
+    background-color: #006695;
 }
 
 .table-hover > tbody > tr > td.success:hover,
@@ -3569,7 +3569,7 @@ output {
     color: white;
     background-color: white;
     background-image: none;
-    border: 3px solid #B0002D;
+    border: 3px solid #006695;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -4158,8 +4158,8 @@ fieldset[disabled] a.btn {
 
 .btn-default {
     color: #ffffff;
-    background-color: #B0002D;
-    border-color: #B0002D;
+    background-color: #006695;
+    border-color: #006695;
 }
 
     .btn-default:focus,
@@ -4179,8 +4179,8 @@ fieldset[disabled] a.btn {
     .btn-default.active,
     .open > .dropdown-toggle.btn-default {
         color: #ffffff;
-        background-color: #B0002D;
-        border-color: #B0002D;
+        background-color: #006695;
+        border-color: #006695;
     }
 
         .btn-default:active:hover,
@@ -4223,21 +4223,21 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #B0002D;
-    border-color: #B0002D;
+    background-color: #006695;
+    border-color: #006695;
 }
 
     .btn-primary:focus,
     .btn-primary.focus {
         color: #ffffff;
-        background-color: #B0002D;
-        border-color: #B0002D;
+        background-color: #006695;
+        border-color: #006695;
     }
 
     .btn-primary:hover {
         color: #ffffff;
-        background-color: #B0002D;
-        border-color: #B0002D;
+        background-color: #006695;
+        border-color: #006695;
     }
 
     .btn-primary:active,
@@ -4353,8 +4353,8 @@ fieldset[disabled] a.btn {
 
 .btn-info {
     color: #fff;
-    background-color: #B0002D !important;
-    border-color: #B0002D !important;
+    background-color: #006695 !important;
+    border-color: #006695 !important;
 }
 
     .btn-info:focus,
@@ -5299,7 +5299,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
         .nav-tabs > li.active > a,
         .nav-tabs > li.active > a:hover,
         .nav-tabs > li.active > a:focus {
-            color: #B0002D;
+            color: #006695;
             background-color: #ffffff;
             border: 1px solid #ecf0f1;
             border-bottom-color: transparent;
@@ -6164,7 +6164,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .pagination > .active > span:focus {
         z-index: 3;
         color: #ffffff;
-        background-color: #B0002D;
+        background-color: #006695;
         border-color: transparent;
         cursor: default;
     }
@@ -7465,8 +7465,8 @@ button.list-group-item-danger {
 
     .panel-primary > .panel-heading {
         color: #ffffff;
-        background: #B0002D;
-        border-color: #B0002D;
+        background: #006695;
+        border-color: #006695;
     }
 
         .panel-primary > .panel-heading + .panel-collapse > .panel-body {
@@ -8372,7 +8372,7 @@ button.close {
     opacity: 1.9;
     filter: alpha(opacity=50);
     font-size: 20px;
-    color: #B0002D;
+    color: #006695;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 167, 0, 1);
 }
@@ -8881,7 +8881,7 @@ modal1-header:before,
 
 .navbar {
     border-width: 0;
-    border-bottom: solid #B0002D;
+    border-bottom: solid #006695;
 }
 
 .navbar-default .badge {
@@ -9617,7 +9617,7 @@ a.list-group-item-danger.active {
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 300;
-    background: #B0002D;
+    background: #006695;
     width: 25%;
     padding-top: 15px;
     height: 40px;
@@ -10016,7 +10016,7 @@ input[type=date] {
     border-radius: 1px;
     padding: 3px;
     color: #fff;
-    background: #B0002D;
+    background: #006695;
 }
 
 .lista_test {
@@ -10823,7 +10823,7 @@ button[type=info-medicion] {
     margin-top: 0px;
     height: 40px;
     width: 100%;
-    background: #B0002D;
+    background: #006695;
 }
 
 
@@ -12012,7 +12012,7 @@ body::-webkit-scrollbar-thumb {
 /*Contact us Styles by Erick*/
 .form-horizontal-2 {
     border: solid;
-    border-color: #B0002D;
+    border-color: #006695;
     width: 45%;
     margin-left: 20%;
     height: 500px;
@@ -12068,7 +12068,7 @@ body::-webkit-scrollbar-thumb {
 
 .form-forgot {
     background-color: #fff;
-    border: 1px solid #B0002D;
+    border: 1px solid #006695;
     border-radius: 1px;
     width: 50%;
     text-align: center;
@@ -12076,14 +12076,14 @@ body::-webkit-scrollbar-thumb {
 
 .form-forgot-txtarea {
     background-color: #fff;
-    border: 1px solid #B0002D;
+    border: 1px solid #006695;
     border-radius: 1px;
     width: 50%;
 }
 
 .form-forgot-listinput {
     background-color: #fff;
-    border: 1px solid #B0002D;
+    border: 1px solid #006695;
     border-radius: 1px;
     width: 80%;
     height: 53px;
@@ -12150,11 +12150,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btntechsup {
-    /*background-color:#B0002D;*/
+    /*background-color:#006695;*/
     border-radius: 80%;
     width: 30%;
     outline: none;
-    border-color: #B0002D;
+    border-color: #006695;
     border: 0;
 }
 
@@ -12204,7 +12204,7 @@ li {
 }
 
 #tabuser {
-    background-color: #B0002D !important;
+    background-color: #006695 !important;
 }
 
 .menuunuevo {

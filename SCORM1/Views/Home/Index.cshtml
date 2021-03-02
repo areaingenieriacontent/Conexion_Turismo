@@ -6,6 +6,7 @@
 @{
     ViewBag.Title = "ConexionTurismo";
 }
+
 @if (TempData["Info"] != null)
 {
     @section Scripts {
@@ -147,16 +148,30 @@
 else
 {
     <br />
-    <div class="cb-slideshow">
+    @*<div class="cb-slideshow">
 
         <!--Video-->
-        <video class="video"  muted autoplay="autoplay" loop="loop" volume="0" id="video_background">
-                <source src="~/Content/Images/dd.mp4" type="video/mp4" />
-            </video>
-        @*<image src="~/Content/Images/BV-Training-Community-background.jpg" style="width:100%"></image>*@
+        <video class="video" muted autoplay="autoplay" loop="loop" volume="0" id="video_background">
+            <source src="~/Content/Images/dd.mp4" type="video/mp4" />
+        </video>
+        <image src="~/Content/Images/20181002122530-fondo1.jpg" style="width:100%"></image>
         <!--Fin Video-->
-    </div>
+    </div>*@
+    <br />
+    <div class="cb-slideshow">
+        
+            <ul>
 
+                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage1)</span></li>
+                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage2)</span></li>
+                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage3)</span></li>
+                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage4)</span></li>
+                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage1)</span></li>
+                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage2)</span></li>
+
+            </ul>
+
+</div>
 
 
 

@@ -1638,7 +1638,7 @@ namespace SCORM1.Controllers
                      "<br/>" + "Usuario: " + Usuario + "(sin puntos, sin espacios)" +
                    "<br/>" + "Contraseña: " + Usuario + "(sin puntos, sin espacios)" + "<br/>" +
                    "<br/>" + "Link de ingreso a la plataforma: " +
-                "<br/>" + "<a href='https://aprendeyavanza2.com.co/bureaulatam'><button style='background: #CC023B; color: #fff; padding: 10px; font-size: 20px; border-radius: 13px;'>Ingresa Aqu&igrave;</button></a>" +
+                "<br/>" + "<a href='https://aprendeyavanza2.com.co/ConexionTurismo'><button style='background: #006695; color: #fff; padding: 10px; font-size: 20px; border-radius: 13px;'>Ingresa Aqu&igrave;</button></a>" +
                 "" + "<br/>" +
                    "<br/>" + "Bureau Veritas" +
                    "<br/>" + "Construyendo Confianza";

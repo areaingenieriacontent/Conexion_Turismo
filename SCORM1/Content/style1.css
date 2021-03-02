@@ -19,6 +19,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: none;
+    background-image: url(../App_Files/Upload/20181002122530-fondo1.jpg);
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;

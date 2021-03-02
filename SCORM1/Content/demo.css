@@ -33,7 +33,7 @@ h1
 a {
     text-decoration: none;
     color: #fff;
-    background-color: #B0002D;
+    background-color: #006695;
 }
 
 .descripcion_incial{
@@ -450,7 +450,7 @@ button[type=info-premios]{
 	min-height:300px;
 	max-height:500px;
     background-color: white;		
-    border: 3px solid  #B0002D;
+    border: 3px solid  #006695;
 }
 
 
@@ -482,7 +482,7 @@ button[type=info-premios]{
 }
 
 .progress-bar{
-	background-color: #B0002D;
+	background-color: #006695;
 }
 .progress-bar1{
 	background-color: red;
@@ -567,7 +567,7 @@ button[type=info-premios]{
 .title{
     font-family: 'Roboto Slab', serif;
     letter-spacing:-0.5px;
-	background: #B0002D;
+	background: #006695;
 	background-size:cover;
 	border-radius:5px;
 	width:100%;
@@ -612,7 +612,7 @@ button[type=info-medicion]{
 
 
 .title-inside{
-	background:#B0002D;
+	background:#006695;
 	width:100%;
 	height:35px;
 	padding:10px;

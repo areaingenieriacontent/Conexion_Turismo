@@ -1101,8 +1101,8 @@ else
                             @if (Model.ActualRole==ROLES.AdministradoGeneral)
 	                        {	                        
                             <div class="botones-edicion">
-                                <a href="@Url.Action("DeleteTopicVirtual", "AdminTraining", new { id = @Model.Modules.TopicsCourse.ToList()[0].ToCo_Id })"><i class="fa fa-remove" style="color: #bc112e"></i></a>
-                                <a href="@Url.Action("UpdateTopicVirtual", "AdminTraining", new { id = @Model.Modules.TopicsCourse.ToList()[0].ToCo_Id })"><i class="fa fa-cog" style="color: #bc112e"></i></a>
+                                <a href="@Url.Action("DeleteTopicVirtual", "AdminTraining", new { id = @Model.Modules.TopicsCourse.ToList()[0].ToCo_Id })"><i class="fa fa-remove" style="color: #032b8699"></i></a>
+                                <a href="@Url.Action("UpdateTopicVirtual", "AdminTraining", new { id = @Model.Modules.TopicsCourse.ToList()[0].ToCo_Id })"><i class="fa fa-cog" style="color: #032b8699"></i></a>
                             </div>
                             }
                             @if (Model.Modules.TopicsCourse.ToList()[0].ToCo_RequiredEvaluation == REQUIREDEVALUATION.Si)
@@ -1146,7 +1146,7 @@ else
                                     {
 
                                         <div class="botones-edicion">
-                                            <a href="@Url.Action("DeleteResource", "AdminTraining", new { id = @resource.ReMo_Id })"><i class="fa fa-remove" style="color: #bc112e"></i></a>
+                                            <a href="@Url.Action("DeleteResource", "AdminTraining", new { id = @resource.ReMo_Id })"><i class="fa fa-remove" style="color: #032b8699"></i></a>
 
                                         </div>
                                                 <h4>
@@ -1169,15 +1169,15 @@ else
                                         <div class="botones-edicion">
                                            @if (Model.ActualRole == ROLES.AdministradoGeneral)
                                            {
-                                            <a href="#" onclick="DeleteUser('@resource.Job_Id')" data-cname="@resource.Job_Id"><i class="fa fa-remove" style="color: #bc112e"></i></a>
+                                            <a href="#" onclick="DeleteUser('@resource.Job_Id')" data-cname="@resource.Job_Id"><i class="fa fa-remove" style="color: #032b8699"></i></a>
                                            }
-                                            <a href="@Url.Action("EditJob", "AdminTraining", new { id = @resource.Job_Id })"><i class="fa fa-cog" style="color: #bc112e"></i></a>
+                                            <a href="@Url.Action("EditJob", "AdminTraining", new { id = @resource.Job_Id })"><i class="fa fa-cog" style="color: #032b8699"></i></a>
                                         </div>
                                             <h4>
                                                
 
                                                 <strong>
-                                                    	<a href="@Url.Action("ViewJob", "Ratings", new { id = @resource.Job_Id })" style="background-color:transparent;color:#bc112e;">@resource.Job_Name</a>
+                                                    	<a href="@Url.Action("ViewJob", "Ratings", new { id = @resource.Job_Id })" style="background-color:transparent;color:#032b8699;">@resource.Job_Name</a>
                                                 </strong>
                                             </h4>
                                     }
@@ -1193,7 +1193,7 @@ else
                                 {
                                     <h4 class="fecha">
                                         <strong>
-                                            	<a href="@Url.Action("ViewTest", "AdminTraining", new { id = @item.BaQu_Id })" style="background-color:transparent;color:#bc112e;">Test de @item.TopicsCourse.ToCo_Name</a>
+                                            	<a href="@Url.Action("ViewTest", "AdminTraining", new { id = @item.BaQu_Id })" style="background-color:transparent;color:#032b8699;">Test de @item.TopicsCourse.ToCo_Name</a>
                                         </strong>
                                     </h4>
                                 }
@@ -1209,8 +1209,8 @@ else
                                     @if (Model.ActualRole == ROLES.AdministradoGeneral)
                                     {
                                     <div class="botones-edicion">
-                                        <a href="@Url.Action("DeleteTopicVirtual", "AdminTraining", new { id = @topic1.ToCo_Id })"><i class="fa fa-remove" style="color: #bc112e"></i></a>
-                                        <a href="@Url.Action("UpdateTopicVirtual", "AdminTraining", new { id = @topic1.ToCo_Id })"><i class="fa fa-cog" style="color: #bc112e"></i></a>
+                                        <a href="@Url.Action("DeleteTopicVirtual", "AdminTraining", new { id = @topic1.ToCo_Id })"><i class="fa fa-remove" style="color: #032b8699"></i></a>
+                                        <a href="@Url.Action("UpdateTopicVirtual", "AdminTraining", new { id = @topic1.ToCo_Id })"><i class="fa fa-cog" style="color: #032b8699"></i></a>
                                     </div>
                                     }
                                     @if (topic1.ToCo_RequiredEvaluation == REQUIREDEVALUATION.Si)
@@ -1254,7 +1254,7 @@ else
                                             {
                                          
                                                 <div class="botones-edicion">
-                                                    <a href="@Url.Action("DeleteResource", "AdminTraining", new { id = @resource.ReMo_Id })"><i class="fa fa-remove" style="color: #bc112e"></i></a>
+                                                    <a href="@Url.Action("DeleteResource", "AdminTraining", new { id = @resource.ReMo_Id })"><i class="fa fa-remove" style="color: #032b8699"></i></a>
 
                                                 </div>
                                                 <h4>
@@ -1277,13 +1277,13 @@ else
                                             <div class="botones-edicion">
                                                 @if (Model.ActualRole == ROLES.AdministradoGeneral)
                                                 {
-                                                <a href="#" onclick="DeleteUser('@resource.Job_Id')" data-cname="@resource.Job_Id"><i class="fa fa-remove" style="color: #bc112e"></i></a>
+                                                <a href="#" onclick="DeleteUser('@resource.Job_Id')" data-cname="@resource.Job_Id"><i class="fa fa-remove" style="color: #032b8699"></i></a>
                                                 }
-                                                <a href="@Url.Action("EditJob", "AdminTraining", new { id = @resource.Job_Id })"><i class="fa fa-cog" style="color: #bc112e"></i></a>
+                                                <a href="@Url.Action("EditJob", "AdminTraining", new { id = @resource.Job_Id })"><i class="fa fa-cog" style="color: #032b8699"></i></a>
                                             </div>
                                             <h4>
                                                 <strong>
-                                                    	<a href="@Url.Action("ViewJob", "Ratings", new { id = @resource.Job_Id })" style="background-color:transparent;color:#bc112e;">@resource.Job_Name</a>
+                                                    	<a href="@Url.Action("ViewJob", "Ratings", new { id = @resource.Job_Id })" style="background-color:transparent;color:#032b8699;">@resource.Job_Name</a>
                                                 </strong>
                                             </h4>
                                         }

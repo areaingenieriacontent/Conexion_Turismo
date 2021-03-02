@@ -459,6 +459,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Files\Upload\1920x1080_HD_Wallpaper_147_Zixpk.jpg" />
+    <Content Include="App_Files\Upload\20181002122529-fondo2.jpg" />
+    <Content Include="App_Files\Upload\20181002122530-fondo1.jpg" />
+    <Content Include="App_Files\Upload\20181002122530-fondo3.jpg" />
     <Content Include="App_Files\Upload\20200302171006-banner1.jpg" />
     <Content Include="App_Files\Upload\20200804223559-UltimoBanner.jpg" />
     <Content Include="App_Files\Upload\20200813172628-banner-3.jpg" />
