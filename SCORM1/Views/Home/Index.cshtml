@@ -148,33 +148,17 @@
 else
 {
     <br />
-    @*<div class="cb-slideshow">
+    <div class="cb-slideshow">
 
         <!--Video-->
         <video class="video" muted autoplay="autoplay" loop="loop" volume="0" id="video_background">
             <source src="~/Content/Images/dd.mp4" type="video/mp4" />
         </video>
-        <image src="~/Content/Images/20181002122530-fondo1.jpg" style="width:100%"></image>
+        @*<image src="~/Content/Images/20181002122530-fondo1.jpg" style="width:100%"></image>*@
         <!--Fin Video-->
-    </div>*@
+    </div>
     <br />
-    <div class="cb-slideshow">
-        
-            <ul>
-
-                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage1)</span></li>
-                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage2)</span></li>
-                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage3)</span></li>
-                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage4)</span></li>
-                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage1)</span></li>
-                <li class="ImagesBackground"><span>@Html.Raw(@Model.UrlImage2)</span></li>
-
-            </ul>
-
-</div>
-
-
-
+    
     <div style="margin-top:-34px; margin-left:17px;height:38em; z-index:100000;">
         @{ Html.RenderPartial("_Login", Model.Login); }
     </div>
