@@ -162,7 +162,7 @@ namespace SCORM1.Controllers
 
                 ApplicationDbContext.SaveChanges();
             }
-            return Redirect("https://aprendeyavanza2.com.co/contentGroup/bureau/COMUNIDAD/Periodico/index.html");
+            return Redirect("https://aprendeyavanza2.com.co/contentGroup/APB/periodico/index.html");
 
 
         }
@@ -195,12 +195,11 @@ namespace SCORM1.Controllers
 
                 int Juego = Consulta1.ContJuegos;
 
-
                 ConsultaUnica.FirstOrDefault().ContJuegos = Juego + 1;
 
                 ApplicationDbContext.SaveChanges();
             }
-            return Redirect("https://aprendeyavanza2.com.co/contentGroup/bureau/COMUNIDAD/CiudadVeritas/index.html");
+            return Redirect("https://aprendeyavanza2.com.co/contentGroup/APB/macro%20hoteleria/juego/index.html");
 
 
         }
