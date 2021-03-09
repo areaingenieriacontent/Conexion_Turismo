@@ -51,7 +51,7 @@ namespace SCORM1.Controllers
 
                 ApplicationDbContext.SaveChanges();
             }
-            return Redirect("https://aprendeyavanza2.com.co/contentGroup/Bureau/COMUNIDAD/OBL/uno/OBL/index.html");
+            return Redirect("https://view.genial.ly/602540a99caee90d9ef8b20e");
 
 
         }
