@@ -87,7 +87,7 @@ namespace SCORM1.Controllers
 
                 ApplicationDbContext.SaveChanges();
             }
-            return Redirect("https://www.aprendeyavanza2.com.co/contentGroup/bureau/comunidad/biblioteca/paginabiblioteca/biblioteca.html");
+            return Redirect("https://aprendeyavanza2.com.co/contentGroup/ConexionTurismo/Comunidad/Biblioteca/PaginaBiblioteca/Biblioteca.html");
 
 
         }
@@ -124,7 +124,7 @@ namespace SCORM1.Controllers
 
                 ApplicationDbContext.SaveChanges();
             }
-            return Redirect("https://www.aprendeyavanza2.com.co/contentGroup/bureau/comunidad/videoteca/paginaVideoteca/videoteca.html");
+            return Redirect("https://aprendeyavanza2.com.co/contentGroup/ConexionTurismo/Comunidad/Videoteca/PaginaVideoteca/videoteca.html");
 
 
         }
@@ -242,7 +242,7 @@ namespace SCORM1.Controllers
 
                 ApplicationDbContext.SaveChanges();
             }
-            return Redirect("https://aprendeyavanza2.com.co/DCOBureau/home/Loginexterno/" + result);
+            return Redirect("https://aprendeyavanza2.com.co/DCOTurismo/home/Loginexterno/" + result);
 
 
         }
