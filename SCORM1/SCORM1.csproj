@@ -557,6 +557,8 @@
     <Content Include="Content\Images\laboratorio_empresarial.png" />
     <Content Include="Content\Images\learning-by-doing.png" />
     <Content Include="Content\Images\libro-calificaciones.png" />
+    <Content Include="Content\Images\logo-header.png" />
+    <Content Include="Content\Images\logo-header2.png" />
     <Content Include="Content\Images\logoBlanco.png" />
     <Content Include="Content\Images\LOGOSA.png" />
     <Content Include="Content\Images\logosan-1.png" />
