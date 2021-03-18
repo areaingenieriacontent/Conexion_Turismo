@@ -126,7 +126,6 @@ namespace SCORM1.Controllers
             }
             return Redirect("https://aprendeyavanza2.com.co/contentGroup/ConexionTurismo/Comunidad/Videoteca/PaginaVideoteca/videoteca.html");
 
-
         }
 
         public RedirectResult ClickPeriodico()

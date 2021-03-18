@@ -423,7 +423,7 @@ iv class="modal-body">
       function eliminarCookies() {
           document.cookie.split(";").forEach(function (c) {
               document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
-              window.location.assign("https://aprendeyavanza2.com.co/DCOBureau/Account/Login?id="@ViewData["Usuario"]);
+              window.location.assign("https://aprendeyavanza2.com.co/DCOTurismo/Account/Login?id="@ViewData["Usuario"]);
 
         });
       }
